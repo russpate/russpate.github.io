@@ -2,6 +2,11 @@
   // background-image:url('https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cedc00aca576c1b39b8e8c91d1967711');
   // background-size:cover;
   padding: 10%;
+  h5{
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
 }
 .pop {
   height: 5px;
@@ -10,4 +15,12 @@
   margin-left:-20px;
   z-index: 1000;
   margin-bottom:1%;
+}
+.left-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.right-wrap{
+  position:relative;
 }

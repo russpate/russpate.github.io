@@ -1,5 +1,9 @@
 .hero {
   padding: 10%; }
+  .hero h5 {
+    position: absolute;
+    top: 20px;
+    right: 0; }
 
 .pop {
   height: 5px;
@@ -8,6 +12,14 @@
   margin-left: -20px;
   z-index: 1000;
   margin-bottom: 1%; }
+
+.left-wrap {
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+.right-wrap {
+  position: relative; }
 
 * {
   margin: 0;
@@ -24,7 +36,7 @@ h1 {
   margin: 0;
   line-height: .75;
   transform: rotate(-90deg);
-  position: absolute;
+  position: static;
   z-index: -1000;
   color: #e4f8e0;
   top: 0px;
