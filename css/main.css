@@ -1,0 +1,39 @@
+.hero {
+  padding: 10%; }
+
+.pop {
+  height: 5px;
+  width: 10%;
+  background-color: #a3f7b5;
+  margin-left: -20px;
+  z-index: 1000;
+  margin-bottom: 1%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #664147; }
+
+h1 {
+  font-family: "bee", sans-serif;
+  text-transform: uppercase;
+  font-size: 35em;
+  margin: 0;
+  line-height: .75;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: -1000;
+  color: #e4f8e0;
+  top: 0px;
+  left: 0px; }
+
+h5 {
+  margin: 0;
+  padding: 0; }
+
+h2, h3, h4, h5, p {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 400; }
