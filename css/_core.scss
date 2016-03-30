@@ -6,6 +6,10 @@
 body{
   color:$c-dark;
 }
+h2,h3,h4,h5,p{
+  font-family:$f-sourceCode;
+  font-weight:400;
+}
 h1{
   font-family:$f-Bee;
   text-transform:uppercase;
@@ -23,7 +27,6 @@ h5{
   margin:0;
   padding:0;
 }
-h2,h3,h4,h5,p{
-  font-family:$f-sourceCode;
-  font-weight:400;
+p{
+  font-size:1.25em;
 }
