@@ -1,7 +1,18 @@
 // device size xs
 @media screen and (max-width: 40em) {
+  h1{
+    font-size:4rem;
+  }
+  .hero{
+    padding:4%;
+  }
   .left-wrap{
     position:relative;
+    margin-bottom:10%;
+  }
+  img{
+    width:100%;
+    margin-left:0;
   }
 }
 // device size sm

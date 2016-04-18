@@ -16,8 +16,17 @@
   position:relative;
 }
 
-.social li {
+.social {
+  font-size:1.5rem;
+  a{
+    padding:5px 10px;
+    margin-right: 3px;
+    &:hover{
+      background:#efefef;
+    }
+  }
+  li {
     list-style: none;
     display: inline;
-    margin-right: 10px;
+  }
 }

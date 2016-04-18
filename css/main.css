@@ -15,10 +15,16 @@
 .right-wrap {
   position: relative; }
 
-.social li {
-  list-style: none;
-  display: inline;
-  margin-right: 10px; }
+.social {
+  font-size: 1.5rem; }
+  .social a {
+    padding: 5px 10px;
+    margin-right: 3px; }
+    .social a:hover {
+      background: #efefef; }
+  .social li {
+    list-style: none;
+    display: inline; }
 
 * {
   margin: 0;
@@ -39,7 +45,7 @@ h1 {
 h2, h3, h4, h5 {
   font-family: "freight-sans-pro", sans-serif;
   margin-top: 0;
-  margin-bottom: 2%; }
+  margin-bottom: 4%; }
 
 p {
   font-size: 1.25rem;
@@ -54,13 +60,21 @@ a {
 
 img {
   width: 110%;
-  margin-bottom: 7%;
+  margin-bottom: 10%;
   margin-top: 7%;
   margin-left: -20px; }
 
 @media screen and (max-width: 40em) {
+  h1 {
+    font-size: 4rem; }
+  .hero {
+    padding: 4%; }
   .left-wrap {
-    position: relative; } }
+    position: relative;
+    margin-bottom: 10%; }
+  img {
+    width: 100%;
+    margin-left: 0; } }
 
 @media only screen and (max-width: 47.875em) {
   .left-wrap {
