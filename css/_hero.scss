@@ -1,26 +1,23 @@
 .hero{
-  // background-image:url('https://images.unsplash.com/uploads/14128434147336bfb286b/e76494ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cedc00aca576c1b39b8e8c91d1967711');
-  // background-size:cover;
   padding: 10%;
-  h5{
-    position: absolute;
-    top: 20px;
-    right: 10px;
-  }
 }
 .pop {
-  height: 5px;
-  width: 10%;
-  background-color: $c-mint;
+  height: 4px;
+  width: 15%;
+  background-color: $c-pop;
   margin-left:-20px;
-  z-index: 1000;
-  margin-bottom:1%;
+  margin-bottom: 8%;
+  margin-top: 8%;
 }
-.left-wrap {
-  position: fixed;
-  left: 0;
-  top: 0;
+.left-wrap{
+  position:fixed;
 }
 .right-wrap{
   position:relative;
+}
+
+.social li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
 }

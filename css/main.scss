@@ -1,15 +1,13 @@
 //fonts here:
 // indicated by the prefix 'f-'
-$f-sourceCode:'Source Code Pro', sans-serif;
-$f-Roboto:'Roboto', sans-serif;
-$f-Bee:"bee",sans-serif;
+$f-Freight:"freight-sans-pro",sans-serif;;
 //colors here:
 // indicated by the prefix 'c-'
-$c-pale:#e4f8e0;
-$c-mint:#a3f7b5;
-$c-green:#3A6F57;
-$c-teal:#2e9c95;
-$c-dark:#664147;
+
+$c-slate:#495C71;
+$c-blue:#0F82DE;
+$c-pop:#65D45F;
 
 @import "_hero.scss";
 @import "_core.scss";
+@import "_queries.scss";

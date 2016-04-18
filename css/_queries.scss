@@ -1,0 +1,18 @@
+// device size xs
+@media screen and (max-width: 40em) {
+  .left-wrap{
+    position:relative;
+  }
+}
+// device size sm
+@media only screen and (max-width:47.875em) {
+  .left-wrap{
+    position:relative;
+  }
+}
+// device size md
+@media only screen and (max-width:54.9375em) {
+  .left-wrap{
+    position:relative;
+  }
+}
