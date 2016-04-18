@@ -4,26 +4,34 @@
     font-size:4rem;
   }
   .hero{
-    padding:4%;
   }
-  .left-wrap{
+  .left{
+    width:100%;
+  }
+  .left-inner{
     position:relative;
     margin-bottom:10%;
   }
-  img{
+  .image{
     width:100%;
     margin-left:0;
   }
 }
 // device size sm
 @media only screen and (max-width:47.875em) {
-  .left-wrap{
+  .left{
+    width:100%;
+  }
+  .left-inner{
     position:relative;
   }
 }
 // device size md
 @media only screen and (max-width:54.9375em) {
-  .left-wrap{
+  .left{
+    width:100%;
+  }
+  .left-inner{
     position:relative;
   }
 }

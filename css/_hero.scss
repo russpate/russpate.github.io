@@ -1,5 +1,5 @@
 .hero{
-  padding: 10%;
+  padding:0;
 }
 .pop {
   height: 4px;
@@ -9,11 +9,18 @@
   margin-bottom: 8%;
   margin-top: 8%;
 }
-.left-wrap{
+.left{
+  background: #495C71;
+  padding: 10%;
+  margin: 0;
+  color: white;
+}
+.left-inner{
   position:fixed;
 }
 .right-wrap{
   position:relative;
+  padding:10%;
 }
 
 .social {
@@ -21,8 +28,10 @@
   a{
     padding:5px 10px;
     margin-right: 3px;
+    color:white;
     &:hover{
-      background:#efefef;
+      background:#3B4D61;
+      color:$c-blue;
     }
   }
   li {

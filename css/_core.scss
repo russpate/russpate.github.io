@@ -32,9 +32,17 @@ a{
     color:darken($c-blue,10%);
   }
 }
-img {
+.image {
   width: 110%;
   margin-bottom: 10%;
   margin-top: 7%;
   margin-left:-20px;
+  img{
+    width:100%;
+  }
+  .caption {
+    background: #EFF1F3;
+    padding: 7px;
+    color: #495C71;
+  }
 }
