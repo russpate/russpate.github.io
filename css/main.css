@@ -4,36 +4,62 @@
 .pop {
   height: 4px;
   width: 15%;
-  background-color: #65D45F;
+  background-color: #F7D554;
   margin-left: -20px;
   margin-bottom: 8%;
   margin-top: 8%; }
 
 .left {
-  background: #495C71;
+  background: #f1f1f1;
   padding: 10%;
   margin: 0;
-  color: white; }
+  color: #5D5D5D; }
 
 .left-inner {
   position: fixed; }
 
 .right-wrap {
   position: relative;
-  padding: 10%; }
+  padding: 10% 5%; }
 
 .social {
   font-size: 1.5rem; }
   .social a {
     padding: 5px 10px;
     margin-right: 3px;
-    color: white; }
+    color: #5D5D5D;
+    border-radius: 2px; }
     .social a:hover {
-      background: #3B4D61;
-      color: #0F82DE; }
+      background: rgba(0, 0, 0, 0.075);
+      color: #5D5D5D; }
   .social li {
     list-style: none;
     display: inline; }
+
+.portfolio-item-wrap a h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0; }
+
+.portfolio-item-wrap {
+  margin: 20px 0;
+  transition: .2s all; }
+
+.portfolio-item-wrap:hover {
+  transform: translateY(-1em); }
+
+.image {
+  width: 110%;
+  margin-bottom: 10%;
+  margin-left: -20px; }
+  .image img {
+    width: 100%; }
+  .image .caption {
+    background: #f6f6f6;
+    padding: 5px 10px;
+    color: #909090;
+    width: 80%;
+    margin: 0 auto; }
 
 * {
   margin: 0;
@@ -41,20 +67,24 @@
   box-sizing: border-box; }
 
 body {
-  color: #495C71;
+  color: #5D5D5D;
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 400; }
 
 h1 {
   font-family: "freight-sans-pro", sans-serif;
-  font-size: 5rem;
+  font-size: 5.5rem;
   margin: 0;
-  font-weight: 500; }
+  font-weight: 600; }
 
 h2, h3, h4, h5 {
   font-family: "freight-sans-pro", sans-serif;
   margin-top: 0;
   margin-bottom: 4%; }
+
+h5 {
+  letter-spacing: .125rem;
+  font-size: 1.25rem; }
 
 p {
   font-size: 1.25rem;
@@ -66,18 +96,6 @@ a {
   transition: .2s all; }
   a:hover {
     color: #0c66ae; }
-
-.image {
-  width: 110%;
-  margin-bottom: 10%;
-  margin-top: 7%;
-  margin-left: -20px; }
-  .image img {
-    width: 100%; }
-  .image .caption {
-    background: #EFF1F3;
-    padding: 7px;
-    color: #495C71; }
 
 @media screen and (max-width: 40em) {
   h1 {

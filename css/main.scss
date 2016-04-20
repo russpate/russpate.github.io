@@ -4,10 +4,11 @@ $f-Freight:"freight-sans-pro",sans-serif;;
 //colors here:
 // indicated by the prefix 'c-'
 
-$c-slate:#495C71;
+$c-slate:#5D5D5D;
 $c-blue:#0F82DE;
-$c-pop:#65D45F;
+$c-pop:#F7D554;
 
 @import "_hero.scss";
+@import "_portfolio.scss";
 @import "_core.scss";
 @import "_queries.scss";
