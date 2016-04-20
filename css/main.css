@@ -38,8 +38,13 @@
 
 .portfolio-item-wrap a h2 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 0; }
+  .portfolio-item-wrap a h2 span {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #F1F1F1;
+    vertical-align: top; }
 
 .portfolio-item-wrap {
   margin: 20px 0;
@@ -55,7 +60,7 @@
   .image img {
     width: 100%; }
   .image .caption {
-    background: #f6f6f6;
+    background: #F1F1F1;
     padding: 5px 10px;
     color: #909090;
     width: 80%;
