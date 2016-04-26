@@ -1,19 +1,25 @@
 .hero{
   padding:0;
 }
-.pop {
-  height: 4px;
-  width: 15%;
-  background-color: $c-pop;
+.pop-wrap{
   margin-left:-20px;
-  margin-bottom: 8%;
-  margin-top: 8%;
 }
+.pop {
+  height: 7px;
+  width: 7px;
+  background-color: $c-blue;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius:20px;
+  display:inline-block;
+  margin-right:5px;
+}
+
 .left{
-  background: #f1f1f1;
-  padding: 10%;
+  background: $c-blue;
+  padding: 10% 5%;
   margin: 0;
-  color: #5D5D5D;
+  color: $c-light;
 }
 .left-inner{
   position:fixed;
@@ -24,18 +30,26 @@
 }
 .social {
   font-size:1.5rem;
+  margin:20% 0;
   a{
     padding:5px 10px;
     margin-right: 3px;
-    color:$c-slate;
+    color:#fff;
     border-radius:2px;
+    background: rgba($c-blueGray,.05);
     &:hover{
-      background: rgba(0, 0, 0, 0.075);
-      color: $c-slate;
+      background: $c-blueGray;
+      color:#fff;
     }
   }
   li {
     list-style: none;
     display: inline;
   }
+}
+.callout{
+  font-size:4.25rem;
+  font-weight:700;
+  line-height:1.15em;
+  margin-bottom:10%;
 }

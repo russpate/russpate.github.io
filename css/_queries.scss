@@ -3,14 +3,23 @@
   h1{
     font-size:4rem;
   }
-  .hero{
-  }
   .left{
     width:100%;
   }
   .left-inner{
     position:relative;
     margin-bottom:10%;
+  }
+  .social-inner {
+      position: relative;
+  }
+  .social{
+    margin:8% 0;
+  }
+  .callout{
+    font-size:3.25rem;
+    font-weight:700;
+    line-height:1.15em;
   }
   .image{
     width:100%;
@@ -33,5 +42,8 @@
   }
   .left-inner{
     position:relative;
+  }
+  .social{
+    margin:8% 0;
   }
 }

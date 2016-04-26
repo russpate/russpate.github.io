@@ -17,17 +17,17 @@
 .portfolio-item-wrap:hover {
   transform: translateY(-1em);
 }
-.image {
+.port-img-wrap {
   width: 110%;
   margin-bottom: 10%;
   margin-left:-20px;
   img{
     width:100%;
   }
-  .caption {
+  .port-img-caption {
     background: $c-light;
     padding: 5px 10px;
-    color: lighten($c-slate, 20%);
+    color: darken($c-light, 25%);
     width:80%;
     margin:0 auto;
   }
