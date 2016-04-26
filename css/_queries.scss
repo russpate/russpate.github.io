@@ -1,3 +1,30 @@
+// device size md
+@media only screen and (max-width:54.9375em) {
+  h1{
+    font-size:4rem;
+  }
+  .left{
+    width:100%;
+  }
+  .left-inner{
+    position:relative;
+    height:50vh;
+  }
+  .social{
+    margin:8% 0;
+  }
+}
+
+// device size sm
+@media only screen and (max-width:47.875em) {
+  .left{
+    width:100%;
+  }
+  .left-inner{
+    position:relative;
+  }
+}
+
 // device size xs
 @media screen and (max-width: 40em) {
   h1{
@@ -8,7 +35,7 @@
   }
   .left-inner{
     position:relative;
-    margin-bottom:10%;
+    height:40vh;
   }
   .social-inner {
       position: relative;
@@ -24,26 +51,5 @@
   .image{
     width:100%;
     margin-left:0;
-  }
-}
-// device size sm
-@media only screen and (max-width:47.875em) {
-  .left{
-    width:100%;
-  }
-  .left-inner{
-    position:relative;
-  }
-}
-// device size md
-@media only screen and (max-width:54.9375em) {
-  .left{
-    width:100%;
-  }
-  .left-inner{
-    position:relative;
-  }
-  .social{
-    margin:8% 0;
   }
 }

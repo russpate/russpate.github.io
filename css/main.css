@@ -15,13 +15,14 @@
   margin-right: 5px; }
 
 .left {
-  background: #0F82DE;
-  padding: 10% 5%;
   margin: 0;
   color: #F1F1F1; }
 
 .left-inner {
-  position: fixed; }
+  position: fixed;
+  background: #0F82DE;
+  padding: 10% 5%;
+  height: 100vh; }
 
 .right-wrap {
   position: relative;
@@ -48,6 +49,10 @@
   font-weight: 700;
   line-height: 1.15em;
   margin-bottom: 10%; }
+  .callout span {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #A9A8B5; }
 
 .portfolio-item-wrap a h2 {
   font-weight: 700;
@@ -120,6 +125,23 @@ a {
 .hidden {
   display: none; }
 
+@media only screen and (max-width: 54.9375em) {
+  h1 {
+    font-size: 4rem; }
+  .left {
+    width: 100%; }
+  .left-inner {
+    position: relative;
+    height: 50vh; }
+  .social {
+    margin: 8% 0; } }
+
+@media only screen and (max-width: 47.875em) {
+  .left {
+    width: 100%; }
+  .left-inner {
+    position: relative; } }
+
 @media screen and (max-width: 40em) {
   h1 {
     font-size: 4rem; }
@@ -127,7 +149,7 @@ a {
     width: 100%; }
   .left-inner {
     position: relative;
-    margin-bottom: 10%; }
+    height: 40vh; }
   .social-inner {
     position: relative; }
   .social {
@@ -139,17 +161,3 @@ a {
   .image {
     width: 100%;
     margin-left: 0; } }
-
-@media only screen and (max-width: 47.875em) {
-  .left {
-    width: 100%; }
-  .left-inner {
-    position: relative; } }
-
-@media only screen and (max-width: 54.9375em) {
-  .left {
-    width: 100%; }
-  .left-inner {
-    position: relative; }
-  .social {
-    margin: 8% 0; } }

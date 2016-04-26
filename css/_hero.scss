@@ -16,13 +16,16 @@
 }
 
 .left{
-  background: $c-blue;
-  padding: 10% 5%;
+  // background: $c-blue;
+  // padding: 10% 5%;
   margin: 0;
   color: $c-light;
 }
 .left-inner{
   position:fixed;
+  background: $c-blue;
+  padding: 10% 5%;
+  height:100vh;
 }
 .right-wrap{
   position:relative;
@@ -52,4 +55,9 @@
   font-weight:700;
   line-height:1.15em;
   margin-bottom:10%;
+  span {
+   font-size: 1.25rem;
+   font-weight: 500;
+   color:#A9A8B5;
+  }
 }
