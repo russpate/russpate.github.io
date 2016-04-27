@@ -3,6 +3,9 @@
   padding:0;
   box-sizing: border-box;
 }
+::selection{
+  background:$c-yellow;
+}
 body{
   color:$c-blueGray;
   font-family:$f-Freight;
@@ -28,6 +31,7 @@ h5 {
 p{
   font-size:1.5rem;
   line-height: 2.1rem;
+  margin-bottom:0;
 }
 a{
   color:$c-blue;
@@ -39,4 +43,22 @@ a{
 }
 .hidden{
   display:none;
+}
+button {
+  -webkit-appearance: none;
+  border: none;
+  padding: 3% 5%;
+  font-size: 1.25rem;
+  background: none;
+  border: 2px solid $c-blue;
+  color: $c-blue;
+  transition: .2s all;
+  cursor:pointer;
+  &:hover {
+    background: $c-blue;
+    color: white;
+  }
+  &:focus{
+    outline:none;
+  }
 }

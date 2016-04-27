@@ -22,7 +22,8 @@
   position: fixed;
   background: #0F82DE;
   padding: 10% 5%;
-  height: 100vh; }
+  height: 100vh;
+  background-image: url("../img/pattern.png"); }
 
 .right-wrap {
   position: relative;
@@ -53,6 +54,18 @@
     font-size: 1.25rem;
     font-weight: 500;
     color: #A9A8B5; }
+
+.exp-item {
+  padding: 0;
+  margin: 0; }
+
+.exp-wrap {
+  margin: 5% 0;
+  background: #F1F1F1;
+  padding: 5%; }
+
+.exp-btn {
+  text-align: right; }
 
 .portfolio-item-wrap a h2 {
   font-weight: 700;
@@ -89,6 +102,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+::selection {
+  background: #FFFDBB; }
+
 body {
   color: #494864;
   font-family: "freight-sans-pro", sans-serif;
@@ -113,7 +129,8 @@ h5 {
 
 p {
   font-size: 1.5rem;
-  line-height: 2.1rem; }
+  line-height: 2.1rem;
+  margin-bottom: 0; }
 
 a {
   color: #0F82DE;
@@ -125,6 +142,22 @@ a {
 .hidden {
   display: none; }
 
+button {
+  -webkit-appearance: none;
+  border: none;
+  padding: 3% 5%;
+  font-size: 1.25rem;
+  background: none;
+  border: 2px solid #0F82DE;
+  color: #0F82DE;
+  transition: .2s all;
+  cursor: pointer; }
+  button:hover {
+    background: #0F82DE;
+    color: white; }
+  button:focus {
+    outline: none; }
+
 @media only screen and (max-width: 54.9375em) {
   h1 {
     font-size: 4rem; }
@@ -134,7 +167,10 @@ a {
     position: relative;
     height: 50vh; }
   .social {
-    margin: 8% 0; } }
+    margin: 8% 0; }
+  button {
+    width: 100%;
+    margin: 5% 0; } }
 
 @media only screen and (max-width: 47.875em) {
   .left {
