@@ -20,16 +20,14 @@
   p{
     align-content:center;
     font-size:1.2rem;
+    color:lighten($c-blueGray,30%);
   }
 }
 
 .exp-wrap {
   margin: 5% 0;
   padding:3%;
-  border-top: 1px solid $c-light;
-  border-bottom: 1px solid $c-light;
-  border-right: 1px solid $c-light;
-  box-shadow: inset 5px 0px 0px $c-light;
+  border:2px solid $c-light;
   align-items:center;
 }
 
@@ -53,7 +51,7 @@
   margin: 20px 0;
   transition: .2s all;
   border-left: 3px solid #F1F1F1;
-  border: 1px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   padding: 3% 5% 5% 5%;
   border-radius: 2px;
   p{
