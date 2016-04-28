@@ -4,7 +4,7 @@
     font-size:4rem;
   }
   .left{
-    width:100%;
+    width:100% !important;
   }
   .left-inner{
     position:relative;
@@ -16,6 +16,7 @@
   button{
     width:100%;
     margin:5% 0;
+    padding:7%;
   }
 }
 
@@ -47,13 +48,30 @@
   .social{
     margin:8% 0;
   }
+  .section-1{
+    margin-bottom:15%;
+  }
   .callout{
-    font-size:3.25rem;
-    font-weight:700;
-    line-height:1.15em;
+    h3{
+      font-size:3.25rem;
+      font-weight:700;
+      line-height:1.15em;
+    }
+    span{
+      font-size:1rem;
+    }
+  }
+  .exp-wrap{
+    box-shadow:none;
+    border:1px solid $c-light;
+    text-align:center;
+  }
+  .port-img-wrap{
+    margin-left:0;
   }
   .image{
     width:100%;
     margin-left:0;
   }
+
 }

@@ -24,13 +24,13 @@
 .left-inner{
   position:fixed;
   background: $c-blue;
-  padding: 10% 5%;
+  padding: 10% 3%;
   height:100vh;
   background-image:url('../img/pattern.png');
 }
 .right-wrap{
   position:relative;
-  padding:10% 5%;
+  padding:5%;
 }
 .social {
   font-size:1.5rem;
@@ -40,25 +40,17 @@
     margin-right: 3px;
     color:#fff;
     border-radius:2px;
-    background: rgba($c-blueGray,.05);
+    background: rgba($c-blueGray,.5);
     &:hover{
       background: $c-blueGray;
       color:#fff;
+    }
+    &:focus{
+      outline:none;
     }
   }
   li {
     list-style: none;
     display: inline;
-  }
-}
-.callout{
-  font-size:4.25rem;
-  font-weight:700;
-  line-height:1.15em;
-  margin-bottom:10%;
-  span {
-   font-size: 1.25rem;
-   font-weight: 500;
-   color:#A9A8B5;
   }
 }
