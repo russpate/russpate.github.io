@@ -19,14 +19,32 @@
   // background: $c-blue;
   // padding: 10% 5%;
   margin: 0;
-  color: #fff;
+  color: $c-blueGray;
 }
 .left-inner{
   position:fixed;
   background: $c-blue;
   padding: 10% 3%;
   height:100vh;
-  background-image:url('../img/pattern.png');
+  // background-image:url('../img/pattern.png');
+  width:inherit;
+  h5{
+    margin-top:0;
+    line-height:1.85rem;
+    font-family:$f-Jubilat;
+    border-top: 2px solid;
+    padding: 7% 0;
+    margin:5% 0;
+    border-bottom: 2px solid;
+    span {
+      float: left;
+      color: #AFD1EC;
+      font-size: 3rem;
+      line-height: 3rem;
+      padding: 0 10px;
+      margin-right: 3%;
+    }
+  }
 }
 .right-wrap{
   position:relative;
@@ -34,13 +52,13 @@
 }
 .social {
   font-size:1.5rem;
-  margin:20% 0;
+  margin:10% 0;
   a{
-    padding:5px 10px;
-    margin-right: 3px;
-    color:#fff;
+    padding:3px 8px;
+    margin-right: 5px;
+    color:$c-blue;
     border-radius:2px;
-    background: rgba($c-blueGray,.5);
+    background: $c-blueGray;
     &:hover{
       background: $c-blueGray;
       color:#fff;

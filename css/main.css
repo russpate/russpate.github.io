@@ -16,14 +16,29 @@
 
 .left {
   margin: 0;
-  color: #fff; }
+  color: #494864; }
 
 .left-inner {
   position: fixed;
   background: #0F82DE;
   padding: 10% 3%;
   height: 100vh;
-  background-image: url("../img/pattern.png"); }
+  width: inherit; }
+  .left-inner h5 {
+    margin-top: 0;
+    line-height: 1.85rem;
+    font-family: "jubilat", sans-serif;
+    border-top: 2px solid;
+    padding: 7% 0;
+    margin: 5% 0;
+    border-bottom: 2px solid; }
+    .left-inner h5 span {
+      float: left;
+      color: #AFD1EC;
+      font-size: 3rem;
+      line-height: 3rem;
+      padding: 0 10px;
+      margin-right: 3%; }
 
 .right-wrap {
   position: relative;
@@ -31,13 +46,13 @@
 
 .social {
   font-size: 1.5rem;
-  margin: 20% 0; }
+  margin: 10% 0; }
   .social a {
-    padding: 5px 10px;
-    margin-right: 3px;
-    color: #fff;
+    padding: 3px 8px;
+    margin-right: 5px;
+    color: #0F82DE;
     border-radius: 2px;
-    background: rgba(73, 72, 100, 0.5); }
+    background: #494864; }
     .social a:hover {
       background: #494864;
       color: #fff; }
@@ -48,10 +63,12 @@
     display: inline; }
 
 .section-1 {
-  margin-bottom: 7%; }
+  margin-bottom: 7%;
+  border-top: 5px solid;
+  padding: 1% 0; }
 
 .callout h3 {
-  font-size: 4.25rem;
+  font-size: 5.5rem;
   font-weight: 800;
   line-height: 1.15em;
   margin-bottom: 7%; }
@@ -144,12 +161,11 @@ h1 {
   font-family: "freight-sans-pro", sans-serif;
   font-size: 3rem;
   margin: 0;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: .1rem; }
 
 h2, h3, h4, h5 {
-  font-family: "freight-sans-pro", sans-serif;
-  margin-top: 0; }
+  font-family: "freight-sans-pro", sans-serif; }
 
 h5 {
   letter-spacing: .125rem;
@@ -193,7 +209,8 @@ button {
     width: 100% !important; }
   .left-inner {
     position: relative;
-    height: 50vh; }
+    height: auto;
+    padding: 5%; }
   .social {
     margin: 8% 0; }
   button {
@@ -213,8 +230,7 @@ button {
   .left {
     width: 100%; }
   .left-inner {
-    position: relative;
-    height: 40vh; }
+    position: relative; }
   .social-inner {
     position: relative; }
   .social {
