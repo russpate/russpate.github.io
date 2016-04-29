@@ -14,24 +14,38 @@ body{
 hr{
   border-top:1px solid $c-light;
 }
-h1{
+
+h1,h2, h3, h4, h5{
   font-family:$f-Freight;
-  font-size:3rem;
-  margin:0;
-  font-weight:800;
-  letter-spacing:.1rem;
+  margin-top:0;
 }
-h2, h3, h4, h5{
-  font-family:$f-Freight;
+h3{
+  font-family: "atrament-web", sans-serif;
+  font-size: 4.75rem;
+  font-weight:100;
+  line-height: 5rem;
+  text-transform: uppercase;
+  letter-spacing: .12rem;
+}
+h4{
+  font-family: "atrament-web", sans-serif;
+  font-size: 2.75rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .12rem;
 }
 h5 {
   letter-spacing: .125rem;
   font-size: 1.25rem;
+  margin:0;
 }
 p{
-  font-size:1.5rem;
-  line-height: 2.1rem;
-  margin-bottom:0;
+  margin-top:0;
+  line-height:1.85rem;
+  font-family:$f-Freight;
+  font-size:1.25rem;
+  font-weight:500;
+  line-height:2rem;
 }
 a{
   color:$c-blue;
@@ -49,9 +63,11 @@ button {
   border: none;
   padding: 3% 5%;
   font-size: 1.25rem;
-  background: none;
-  border: 2px solid $c-blue;
-  color: $c-blue;
+  font-family:$f-Freight;
+  font-weight: 500;
+  letter-spacing: .05rem;;
+  background: $c-blue;
+  color: #fff;
   transition: .2s all;
   cursor:pointer;
   &:hover {

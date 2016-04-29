@@ -24,31 +24,22 @@
 .left-inner{
   position:fixed;
   background: $c-blue;
-  padding: 10% 3%;
+  padding: 1% 3%;
   height:100vh;
   // background-image:url('../img/pattern.png');
   width:inherit;
-  h5{
-    margin-top:0;
-    line-height:1.85rem;
-    font-family:$f-Jubilat;
-    border-top: 2px solid;
-    padding: 7% 0;
-    margin:5% 0;
-    border-bottom: 2px solid;
-    span {
-      float: left;
-      color: #AFD1EC;
-      font-size: 3rem;
-      line-height: 3rem;
-      padding: 0 10px;
-      margin-right: 3%;
-    }
+  hr{
+    border: 0;
+    height: 3px;
+    background: $c-blueGray;
+    width: 10%;
+    margin-left: -18px;
+    padding: 0;
   }
-}
-.right-wrap{
-  position:relative;
-  padding:5%;
+  p{
+    font-family:$f-Jubilat;
+    font-style:italic;
+  }
 }
 .social {
   font-size:1.5rem;
@@ -56,12 +47,12 @@
   a{
     padding:3px 8px;
     margin-right: 5px;
-    color:$c-blue;
+    color:$c-blueGray;
     border-radius:2px;
-    background: $c-blueGray;
+    border: 2px solid $c-blueGray;
     &:hover{
-      background: $c-blueGray;
-      color:#fff;
+      background: #fff;
+      color:$c-blueGray;
     }
     &:focus{
       outline:none;

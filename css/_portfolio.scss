@@ -1,20 +1,22 @@
+.right-wrap{
+  position:relative;
+  padding:3% 5%;
+}
 .section-1{
-  margin-bottom:7%;
-  border-top: 5px solid;
-  padding: 1% 0;
-
+  margin-bottom:4%;
+  padding-bottom:3%;
+  border-bottom:3px solid;
+}
+.section-2{
+  padding:0;
 }
 .callout{
-  h3{
+  h1{
     font-size:5.5rem;
     font-weight:800;
     line-height:1.15em;
     margin-bottom:7%;
-  }
-  span {
-   font-size: 1.25rem;
-   font-weight: 500;
-   color:$c-blueGray;
+    margin-top:3%;
   }
 }
 .exp-item {
@@ -23,13 +25,15 @@
   p{
     align-content:center;
     font-size:1.2rem;
+    font-family:$f-Jubilat;
     color:$c-blueGray;
+    margin:0;
   }
 }
 
 .exp-wrap {
   margin: 5% 0;
-  padding:3%;
+  padding:4% 3%;
   border:2px solid $c-light;
   align-items:center;
   justify-content:space-around;
