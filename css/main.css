@@ -16,21 +16,14 @@
 
 .left {
   margin: 0;
-  color: #494864; }
+  color: #0F82DE; }
 
 .left-inner {
   position: fixed;
-  background: #0F82DE;
-  padding: 1% 3%;
+  background: #EFF6FD;
+  padding: 3%;
   height: 100vh;
   width: inherit; }
-  .left-inner hr {
-    border: 0;
-    height: 3px;
-    background: #494864;
-    width: 10%;
-    margin-left: -18px;
-    padding: 0; }
   .left-inner p {
     font-family: "jubilat", sans-serif;
     font-style: italic; }
@@ -41,12 +34,12 @@
   .social a {
     padding: 3px 8px;
     margin-right: 5px;
-    color: #494864;
+    color: #0F82DE;
     border-radius: 2px;
-    border: 2px solid #494864; }
+    border: 2px solid #0F82DE; }
     .social a:hover {
-      background: #fff;
-      color: #494864; }
+      background: #0F82DE;
+      color: #EFF6FD; }
     .social a:focus {
       outline: none; }
   .social li {
@@ -55,7 +48,7 @@
 
 .right-wrap {
   position: relative;
-  padding: 3% 5%; }
+  padding: 4% 5%; }
 
 .section-1 {
   margin-bottom: 4%;
@@ -70,7 +63,8 @@
   font-weight: 800;
   line-height: 1.15em;
   margin-bottom: 7%;
-  margin-top: 3%; }
+  margin-top: 3%;
+  letter-spacing: .1rem; }
 
 .exp-item {
   padding: 0;
@@ -79,42 +73,41 @@
     align-content: center;
     font-size: 1.2rem;
     font-family: "jubilat", sans-serif;
-    color: #494864;
     margin: 0; }
 
 .exp-wrap {
   margin: 5% 0;
   padding: 4% 3%;
-  border: 2px solid #F1F1F1;
+  border: 3px solid #EFF6FD;
   align-items: center;
   justify-content: space-around; }
 
 .exp-btn {
   text-align: right; }
 
-.portfolio-item-wrap:hover .port-desc {
-  opacity: 1; }
-
-.portfolio-item-inner a h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-bottom: 0; }
-  .portfolio-item-inner a h2 span {
-    font-size: 4rem;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.05);
-    vertical-align: top; }
+.portfolio-item-wrap {
+  position: relative; }
+  .portfolio-item-wrap h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0; }
+    .portfolio-item-wrap h2 span {
+      font-size: 6rem;
+      font-weight: 600;
+      color: #EFF6FD;
+      vertical-align: top;
+      position: absolute;
+      z-index: -1000;
+      top: 12px;
+      left: -40px; }
 
 .portfolio-item-inner {
   transition: .2s all;
-  border: 2px solid #F1F1F1;
+  border: 3px solid #EFF6FD;
   padding: 3% 5% 5% 5%;
   border-radius: 2px; }
   .portfolio-item-inner:hover {
     transform: translateY(-1em); }
-  .portfolio-item-inner p {
-    font-size: 1.2rem;
-    color: #494864; }
 
 .port-desc {
   position: absolute;
@@ -130,12 +123,6 @@
   margin-bottom: 5%; }
   .port-img-wrap img {
     width: 100%; }
-  .port-img-wrap .port-img-caption {
-    background: #F1F1F1;
-    padding: 5px 10px;
-    color: #b1b1b1;
-    width: 80%;
-    margin: 0 auto; }
 
 * {
   margin: 0;
@@ -146,12 +133,9 @@
   background: #FFFDBB; }
 
 body {
-  color: #494864;
+  color: #0F82DE;
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 400; }
-
-hr {
-  border-top: 1px solid #F1F1F1; }
 
 h1, h2, h3, h4, h5 {
   font-family: "freight-sans-pro", sans-serif;
@@ -170,12 +154,15 @@ h4 {
   font-size: 2.75rem;
   line-height: 3rem;
   text-transform: uppercase;
-  letter-spacing: .12rem; }
+  letter-spacing: .12rem;
+  margin-bottom: 4%; }
 
 h5 {
-  letter-spacing: .125rem;
-  font-size: 1.25rem;
-  margin: 0; }
+  letter-spacing: .15rem;
+  font-size: 1.1rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 p {
   margin-top: 0;
@@ -186,7 +173,7 @@ p {
   line-height: 2rem; }
 
 a {
-  color: #0F82DE;
+  color: #00D87E;
   text-decoration: none;
   transition: .2s all; }
   a:hover {
@@ -194,6 +181,14 @@ a {
 
 .hidden {
   display: none; }
+
+hr {
+  border: 0;
+  height: 3px;
+  background: #0F82DE;
+  width: 10%;
+  margin-left: -18px;
+  padding: 0; }
 
 button {
   -webkit-appearance: none;
@@ -203,12 +198,12 @@ button {
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 500;
   letter-spacing: .05rem;
-  background: #0F82DE;
+  background: #00D87E;
   color: #fff;
   transition: .2s all;
   cursor: pointer; }
   button:hover {
-    background: #0F82DE;
+    background: #007243;
     color: white; }
   button:focus {
     outline: none; }
@@ -263,7 +258,6 @@ button {
     font-size: 1rem; }
   .exp-wrap {
     box-shadow: none;
-    border: 1px solid #F1F1F1;
     text-align: center; }
   .port-img-wrap {
     margin-left: 0; }

@@ -1,6 +1,6 @@
 .right-wrap{
   position:relative;
-  padding:3% 5%;
+  padding:4% 5%;
 }
 .section-1{
   margin-bottom:4%;
@@ -17,6 +17,7 @@
     line-height:1.15em;
     margin-bottom:7%;
     margin-top:3%;
+    letter-spacing:.1rem;
   }
 }
 .exp-item {
@@ -26,48 +27,45 @@
     align-content:center;
     font-size:1.2rem;
     font-family:$f-Jubilat;
-    color:$c-blueGray;
     margin:0;
   }
 }
-
 .exp-wrap {
   margin: 5% 0;
   padding:4% 3%;
-  border:2px solid $c-light;
+  border:3px solid $c-lightBlue;
   align-items:center;
   justify-content:space-around;
 }
-
 .exp-btn {
   text-align: right;
 }
-.portfolio-item-wrap:hover .port-desc {
-    opacity: 1;
-}
-.portfolio-item-inner a h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-bottom:0;
-  span {
-    font-size: 4rem;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.05);
-    vertical-align: top;
+.portfolio-item-wrap {
+  position:relative;
+  h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom:0;
+    span {
+      font-size: 6rem;
+      font-weight: 600;
+      color: $c-lightBlue;
+      vertical-align: top;
+      position: absolute;
+      z-index: -1000;
+      top: 12px;
+      left: -40px;
+      }
+    }
   }
-}
 
 .portfolio-item-inner {
   transition: .2s all;
-  border: 2px solid $c-light;
+  border: 3px solid $c-lightBlue;
   padding: 3% 5% 5% 5%;
   border-radius: 2px;
   &:hover {
     transform: translateY(-1em);
-  }
-  p{
-    font-size:1.2rem;
-    color:$c-blueGray;
   }
 }
 .port-desc {
@@ -84,12 +82,5 @@
   margin-bottom: 5%;
   img{
     width:100%;
-  }
-  .port-img-caption {
-    background: $c-light;
-    padding: 5px 10px;
-    color: darken($c-light, 25%);
-    width:80%;
-    margin:0 auto;
   }
 }
