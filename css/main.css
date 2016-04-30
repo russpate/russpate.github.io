@@ -177,7 +177,7 @@ a {
   text-decoration: none;
   transition: .2s all; }
   a:hover {
-    color: #0c66ae; }
+    color: #0f3dde; }
 
 .hidden {
   display: none; }
@@ -203,7 +203,7 @@ button {
   transition: .2s all;
   cursor: pointer; }
   button:hover {
-    background: #007243;
+    background: #0f3dde;
     color: white; }
   button:focus {
     outline: none; }

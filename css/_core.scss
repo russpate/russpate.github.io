@@ -51,7 +51,7 @@ a{
   text-decoration:none;
   transition:.2s all;
   &:hover{
-    color:darken($c-blue,10%);
+    color:adjust-hue($c-blue,20%);
   }
 }
 .hidden{
@@ -78,7 +78,7 @@ button {
   transition: .2s all;
   cursor:pointer;
   &:hover {
-    background: darken($c-pop,20%);
+    background: adjust-hue($c-blue,20%);
     color: white;
   }
   &:focus{
