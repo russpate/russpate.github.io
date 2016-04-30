@@ -250,10 +250,8 @@ button {
   .section-1 {
     margin-bottom: 15%;
     padding-top: 5%; }
-  .callout h3 {
-    font-size: 3.25rem;
-    font-weight: 700;
-    line-height: 1.15em; }
+  .callout h1 {
+    font-size: 3rem; }
   .callout span {
     font-size: 1rem; }
   .exp-wrap {
