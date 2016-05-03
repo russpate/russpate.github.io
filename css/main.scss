@@ -1,19 +1,5 @@
-//fonts here:
-// indicated by the prefix 'f-'
-$f-Freight:"freight-sans-pro",sans-serif;
-$f-Atrament:"atrament-web",sans-serif;
-$f-Jubilat:"jubilat",sans-serif;
-//colors here:
-// indicated by the prefix 'c-'
-
-// $c-blueGray:#494864;
-$c-blueGray:#413E65;
-$c-lightBlueGray:#9593b2;
-$c-blue:#0F82DE;
-$c-lightBlue:#EFF6FD;
-$c-pop:#00D87E;
-$c-yellow:#FFFDBB;
-
+@import "_fonts.scss";
+@import "_color.scss";
 @import "_hero.scss";
 @import "_portfolio.scss";
 @import "_core.scss";

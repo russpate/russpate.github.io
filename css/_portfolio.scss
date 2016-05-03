@@ -9,6 +9,9 @@
 }
 .section-2{
   padding:0;
+  margin-bottom:4%;
+  padding-bottom:3%;
+  border-bottom:3px solid;
 }
 .callout{
   h1{
@@ -33,7 +36,7 @@
 .exp-wrap {
   margin: 5% 0;
   padding:4% 3%;
-  border:3px solid $c-lightBlue;
+  border:3px solid lighten($c-primary,45%);
   align-items:center;
   justify-content:space-around;
 }
@@ -50,7 +53,7 @@
     span {
       font-size: 6rem;
       font-weight: 600;
-      color: $c-lightBlue;
+      color: lighten($c-primary,45%);
       vertical-align: top;
       position: absolute;
       z-index: -1000;
@@ -59,10 +62,9 @@
       }
     }
   }
-
 .portfolio-item-inner {
   transition: .2s all;
-  border: 3px solid $c-lightBlue;
+  border: 3px solid lighten($c-primary,45%);
   padding: 3% 5% 5% 5%;
   border-radius: 2px;
   &:hover {
@@ -84,4 +86,16 @@
   img{
     width:100%;
   }
+}
+
+.port-list{
+  -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    li{
+      list-style:none;
+    }
 }

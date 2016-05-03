@@ -7,10 +7,11 @@
   background:$c-yellow;
 }
 body{
-  color:$c-blue;
+  color:$c-primary;
   font-family:$f-Freight;
   font-weight:400;
 }
+
 h1,h2, h3, h4, h5{
   font-family:$f-Freight;
   margin-top:0;
@@ -38,6 +39,7 @@ h5 {
   text-transform: uppercase;
   font-weight: 600;
 }
+
 p{
   margin-top:0;
   line-height:1.85rem;
@@ -47,11 +49,11 @@ p{
   line-height:2rem;
 }
 a{
-  color:$c-pop;
+  color:$c-secondary;
   text-decoration:none;
   transition:.2s all;
   &:hover{
-    color:adjust-hue($c-blue,20%);
+    color:$c-sec-hover;
   }
 }
 .hidden{
@@ -60,7 +62,7 @@ a{
 hr{
   border: 0;
   height: 3px;
-  background: $c-blue;
+  background: $c-primary;
   width: 10%;
   margin-left: -18px;
   padding: 0;
@@ -73,12 +75,12 @@ button {
   font-family:$f-Freight;
   font-weight: 500;
   letter-spacing: .05rem;;
-  background: $c-pop;
+  background: $c-secondary;
   color: #fff;
   transition: .2s all;
   cursor:pointer;
   &:hover {
-    background: adjust-hue($c-blue,20%);
+    background: $c-sec-hover;
     color: white;
   }
   &:focus{

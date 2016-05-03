@@ -1,0 +1,12 @@
+
+//colors here:
+// indicated by the prefix 'c-'
+$c-blue:#0F82DE;
+$c-green:#16C78D;
+$c-lightBlue:#EFF6FD;
+$c-pop:#00D87E;
+$c-yellow:#FFFDBB;
+
+$c-primary:$c-blue;
+$c-secondary:$c-green;
+$c-sec-hover:adjust-hue($c-secondary,50%);

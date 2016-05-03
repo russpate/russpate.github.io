@@ -7,23 +7,22 @@
 .pop {
   height: 7px;
   width: 7px;
-  background-color: $c-blue;
+  background-color: $c-secondary;
   margin-bottom: 5%;
   margin-top: 5%;
   border-radius:20px;
   display:inline-block;
   margin-right:5px;
 }
-
 .left{
   // background: $c-blue;
   // padding: 10% 5%;
   margin: 0;
-  color: $c-blue;
+  color: $c-primary;
 }
 .left-inner{
   position:fixed;
-  background: $c-lightBlue;
+  background: lighten($c-primary,45%);
   padding: 3% 4%;
   height:100vh;
   // background-image:url('../img/pattern.png');
@@ -39,12 +38,12 @@
   a{
     padding:3px 8px;
     margin-right: 5px;
-    color:$c-blue;
+    color:$c-primary;
     border-radius:2px;
-    border: 2px solid $c-blue;
+    border: 2px solid $c-primary;
     &:hover{
-      background: $c-blue;
-      color:$c-lightBlue;
+      background: $c-primary;
+      color:lighten($c-primary,45%);
     }
     &:focus{
       outline:none;
