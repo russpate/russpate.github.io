@@ -22,7 +22,7 @@
 }
 .left-inner{
   position:fixed;
-  background: lighten($c-primary,51%);
+  background: $c-prim-light;
   padding: 3% 4%;
   height:100vh;
   // background-image:url('../img/pattern.png');
@@ -43,7 +43,7 @@
     border: 2px solid $c-primary;
     &:hover{
       background: $c-primary;
-      color:lighten($c-primary,51%);
+      color:$c-prim-light;
     }
     &:focus{
       outline:none;

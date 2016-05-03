@@ -8,5 +8,6 @@ $c-pop:#00D87E;
 $c-yellow:#FFFDBB;
 
 $c-primary:$c-blue;
+$c-prim-light:lighten($c-primary,51%);
 $c-secondary:$c-green;
 $c-sec-hover:adjust-hue($c-secondary,50%);
