@@ -16,11 +16,11 @@
 
 .left {
   margin: 0;
-  color: #0F82DE; }
+  color: #466A88; }
 
 .left-inner {
   position: fixed;
-  background: #f3f9fe;
+  background: #e2eaf0;
   padding: 3% 4%;
   height: 100vh;
   width: inherit; }
@@ -34,12 +34,12 @@
   .social a {
     padding: 3px 8px;
     margin-right: 5px;
-    color: #0F82DE;
+    color: #466A88;
     border-radius: 2px;
-    border: 2px solid #0F82DE; }
+    border: 2px solid #466A88; }
     .social a:hover {
-      background: #0F82DE;
-      color: #f3f9fe; }
+      background: #466A88;
+      color: #e2eaf0; }
     .social a:focus {
       outline: none; }
   .social li {
@@ -81,7 +81,7 @@
 .exp-wrap {
   margin: 5% 0;
   padding: 4% 3%;
-  border: 3px solid #f3f9fe;
+  border: 3px solid #e2eaf0;
   align-items: center;
   justify-content: space-around; }
 
@@ -98,7 +98,7 @@
     .portfolio-item-wrap h2 span {
       font-size: 6rem;
       font-weight: 600;
-      color: #f3f9fe;
+      color: #e2eaf0;
       vertical-align: top;
       position: absolute;
       z-index: -1000;
@@ -107,7 +107,7 @@
 
 .portfolio-item-inner {
   transition: .2s all;
-  border: 3px solid #f3f9fe;
+  border: 3px solid #e2eaf0;
   padding: 3% 5% 5% 5%;
   border-radius: 2px; }
   .portfolio-item-inner:hover {
@@ -136,7 +136,9 @@
   column-count: 2;
   column-gap: 20px; }
   .port-list li {
-    list-style: none; }
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 2.5rem; }
 
 * {
   margin: 0;
@@ -147,7 +149,7 @@
   background: #FFFDBB; }
 
 body {
-  color: #0F82DE;
+  color: #466A88;
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 400; }
 
@@ -199,7 +201,7 @@ a {
 hr {
   border: 0;
   height: 3px;
-  background: #0F82DE;
+  background: #466A88;
   width: 10%;
   margin-left: -18px;
   padding: 0; }
