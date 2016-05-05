@@ -16,11 +16,19 @@
 
 .left {
   margin: 0;
+<<<<<<< HEAD
   color: #444E6B; }
 
 .left-inner {
   position: fixed;
   background: #d1d5e2;
+=======
+  color: #466A88; }
+
+.left-inner {
+  position: fixed;
+  background: #e2eaf0;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
   padding: 3% 4%;
   height: 100vh;
   width: inherit; }
@@ -34,12 +42,21 @@
   .social a {
     padding: 3px 8px;
     margin-right: 5px;
+<<<<<<< HEAD
     color: #444E6B;
     border-radius: 2px;
     border: 2px solid #444E6B; }
     .social a:hover {
       background: #444E6B;
       color: #d1d5e2; }
+=======
+    color: #466A88;
+    border-radius: 2px;
+    border: 2px solid #466A88; }
+    .social a:hover {
+      background: #466A88;
+      color: #e2eaf0; }
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
     .social a:focus {
       outline: none; }
   .social li {
@@ -81,7 +98,11 @@
 .exp-wrap {
   margin: 5% 0;
   padding: 4% 3%;
+<<<<<<< HEAD
   border: 3px solid #d1d5e2;
+=======
+  border: 3px solid #e2eaf0;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
   align-items: center;
   justify-content: space-around; }
 
@@ -98,7 +119,11 @@
     .portfolio-item-wrap h2 span {
       font-size: 6rem;
       font-weight: 600;
+<<<<<<< HEAD
       color: #d1d5e2;
+=======
+      color: #e2eaf0;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
       vertical-align: top;
       position: absolute;
       z-index: -1000;
@@ -107,7 +132,11 @@
 
 .portfolio-item-inner {
   transition: .2s all;
+<<<<<<< HEAD
   border: 3px solid #d1d5e2;
+=======
+  border: 3px solid #e2eaf0;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
   padding: 3% 5% 5% 5%;
   border-radius: 2px; }
   .portfolio-item-inner:hover {
@@ -136,7 +165,9 @@
   column-count: 2;
   column-gap: 20px; }
   .port-list li {
-    list-style: none; }
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 2.5rem; }
 
 * {
   margin: 0;
@@ -147,7 +178,11 @@
   background: #FFFDBB; }
 
 body {
+<<<<<<< HEAD
   color: #444E6B;
+=======
+  color: #466A88;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
   font-family: "freight-sans-pro", sans-serif;
   font-weight: 400; }
 
@@ -199,7 +234,11 @@ a {
 hr {
   border: 0;
   height: 3px;
+<<<<<<< HEAD
   background: #444E6B;
+=======
+  background: #466A88;
+>>>>>>> cbe124a7a8031b1b3a3ff7fc70fb98ade2a067e7
   width: 10%;
   margin-left: -18px;
   padding: 0; }
