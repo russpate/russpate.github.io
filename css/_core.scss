@@ -91,3 +91,16 @@ button {
 .hideme{
   opacity:0;
 }
+
+.page-border-wrap{
+  z-index:1000;
+  position:fixed;
+  height:100vh;
+  width:100vw;
+  border:10px solid $c-prim-light;
+}
+// .page-border-inner{
+//   height:100%;
+//   width:100%;
+//   border-bottom:3px solid;
+// }

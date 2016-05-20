@@ -2,6 +2,8 @@ $(document).ready(function(){
   page.init();
 })
 
+// nice little fadeIn snippet thanks to tcloninger, found here: http://jsfiddle.net/tcloninger/e5qad/
+
 /* Every time the window is scrolled ... */
 $(window).scroll( function(){
     /* Check the location of each desired element */
