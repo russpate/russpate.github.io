@@ -226,6 +226,9 @@ button {
   button:focus {
     outline: none; }
 
+.hideme {
+  opacity: 0; }
+
 @media only screen and (max-width: 1210px) {
   h3 {
     font-size: 3.75rem;
