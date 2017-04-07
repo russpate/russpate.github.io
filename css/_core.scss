@@ -4,6 +4,10 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
+::selection{
+  background:rgba(255,255,255,.3);
+  color:#004aff;
+}
 body {
   color: $c-type;
   font-family: $f-primary;
@@ -77,7 +81,7 @@ hr {
 }
 //
 // Functional Classes
-// 
+//
 .hidden {
   display:none;
 }

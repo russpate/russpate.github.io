@@ -115,6 +115,10 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
 
+::selection {
+  background: rgba(255, 255, 255, 0.3);
+  color: #004aff; }
+
 body {
   color: #f4f4f4;
   font-family: "Roboto", sans-serif; }
