@@ -38,7 +38,11 @@
 // device size xs
 @media screen and (max-width: 40em) {
   h1{
-    font-size:4rem;
+    font-size:3rem;
+    line-height:3.5rem;
+  }
+  .right-wrap{
+    padding:4% 2%;
   }
   .left{
     width:100%;
