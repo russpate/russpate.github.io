@@ -1,6 +1,9 @@
 .hero {
   padding: 0;
   background: #efefef; }
+  .hero i {
+    color: #a8a8a8;
+    padding: 0 5px; }
 
 .pop-wrap {
   margin-left: -20px; }
@@ -123,8 +126,8 @@ h1, h2, h3, h4, h5, p {
   color: #2b2b2b; }
 
 h1 {
-  font-size: 4.5rem;
-  line-height: 6.25rem; }
+  font-size: 4rem;
+  line-height: 5.25rem; }
 
 h2 {
   font-size: 3.25rem;

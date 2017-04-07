@@ -1,6 +1,10 @@
 .hero {
   padding:0;
   background:darken($c-white, 2%);
+  i{
+    color:darken($c-white,30%);
+    padding: 0 5px;
+  }
 }
 .pop-wrap {
   margin-left:-20px;
