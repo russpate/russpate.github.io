@@ -1,70 +1,31 @@
-.right-wrap{
-  position:relative;
-  padding:4% 7%;
+.right-wrap {
+  position: relative;
+  padding: 4% 7%;
+  background: darken($c-white, 2%);
+  color: $c-black;
 }
-.section-1{
-  margin-bottom:5%;
-  padding-bottom:5%;
-  // border-bottom:3px solid;
-}
-.section-2{
-  padding:0;
-  margin-bottom:5%;
-  padding-bottom:5%;
-  // border-bottom:3px solid;
-}
-.callout{
-  h1{
-    font-size:5.5rem;
-    font-weight:800;
-    line-height:1.15em;
-    margin-bottom:7%;
-    margin-top:3%;
-    letter-spacing:.1rem;
-  }
+.section-1, .section-2 {
+  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 .exp-item {
   padding: 0;
   margin: 0;
-  p{
-    align-content:center;
-    font-size:1.2rem;
-    font-family:$f-Jubilat;
-    margin:0;
+  p {
+    align-content: center;
+    font-size: 1.2rem;
+    font-family: $f-primary;
+    margin: 0;
+    color: $c-black;
   }
 }
-.exp-wrap {
-  margin: 5% 0;
-  padding:4% 3%;
-  border:3px solid $c-prim-light;
-  align-items:center;
-  justify-content:space-around;
-}
-.exp-btn {
-  text-align: right;
-}
 .portfolio-item-wrap {
-  position:relative;
-  margin:5% 0;
-  h2 {
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom:0;
-    span {
-      font-size: 6rem;
-      font-weight: 600;
-      color: $c-prim-light;
-      vertical-align: top;
-      position: absolute;
-      z-index: -1000;
-      top: 8px;
-      left: -40px;
-      }
-    }
+  position: relative;
+  margin: 5% 0;
   }
 .portfolio-item-inner {
   transition: .2s all;
-  border: 3px solid $c-prim-light;
+  border: 3px solid $c-white;
   padding: 10px 10px 0 10px;
   border-radius: 2px;
   &:hover {
@@ -78,28 +39,24 @@
   background: white;
   height: 100%;
   padding: 5%;
-  opacity:0;
+  opacity: 0;
 }
-.port-img-wrap {
-  width: 100%;
-  margin-bottom: 5%;
-  img{
-    width:100%;
-  }
-}
-
-.port-list{
+.port-list {
   -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
-    margin-top:5%;
-    li{
-      list-style:none;
+    margin-top: 5%;
+    li {
+      list-style: none;
       font-size: 1.5rem;
       line-height: 2rem;
-      margin-bottom:3%;
+      margin-bottom: 3%;
     }
+}
+
+.category-title{
+  font-family:$f-inconsolata;
 }

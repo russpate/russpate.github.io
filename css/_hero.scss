@@ -1,52 +1,53 @@
-.hero{
+.hero {
   padding:0;
+  background:darken($c-white, 2%);
 }
-.pop-wrap{
+.pop-wrap {
   margin-left:-20px;
 }
 .pop {
   height: 7px;
   width: 7px;
-  background-color: $c-secondary;
+  background-color: lighten($c-black, 10%);
   margin-bottom: 5%;
   margin-top: 5%;
-  border-radius:20px;
-  display:inline-block;
-  margin-right:5px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 5px;
 }
-.left{
-  // background: $c-blue;
-  // padding: 10% 5%;
+.left {
   margin: 0;
-  color: $c-primary;
+  color: $c-type;
 }
-.left-inner{
-  position:fixed;
-  background: $c-prim-light;
+.left-inner {
+  position: fixed;
+  background: $c-white;
   padding: 3% 4%;
-  height:100vh;
-  // background-image:url('../img/pattern.png');
-  width:inherit;
-  p{
-    font-family:$f-Jubilat;
-    font-style:italic;
+  height: 100vh;
+  width: inherit;
+  color: $c-black;
+  h4{
+    margin:0;
+  }
+  h6{
+    font-family:$f-inconsolata;
+    line-height:normal;
+    margin:0;
+    padding:0;
+  }
+  hr{
+    margin:7% 0;
   }
 }
 .social {
-  font-size:1.5rem;
-  margin:10% 0;
-  a{
-    padding:3px 8px;
+  a {
     margin-right: 5px;
-    color:$c-primary;
-    border-radius:2px;
-    border: 2px solid $c-primary;
-    &:hover{
-      background: $c-primary;
-      color:$c-prim-light;
+    color: lighten($c-black, 30%);
+    &:hover {
+      color: $c-black;
     }
-    &:focus{
-      outline:none;
+    &:focus {
+      outline: none;
     }
   }
   li {

@@ -1,15 +1,8 @@
 
 //colors here:
 // indicated by the prefix 'c-'
-$c-blue:#0F82DE;
-$c-green:#16C78D;
-$c-lightBlue:#EFF6FD;
-$c-pop:#00D87E;
-$c-yellow:#FFFDBB;
-$c-we:#466A88;
-
-
-$c-primary:$c-we;
-$c-prim-light:lighten($c-primary,51%);
-$c-secondary:$c-green;
-$c-sec-hover:adjust-hue($c-secondary,70%);
+$c-black:#2b2b2b;
+$c-white:#f4f4f4;
+$c-gradient:linear-gradient(to right, #ee9bff 0%,#7db9e8 100%);;
+$c-type:$c-white;
+// $c-sec-hover:adjust-hue($c-secondary,70%);
